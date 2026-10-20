@@ -1,9 +1,12 @@
 import { Result } from "effect";
 import { z } from "zod";
 
-export type ReadonlyData<T> = T extends object
-  ? { readonly [K in keyof T]: ReadonlyData<T[K]> }
-  : T;
+export type ReadonlyData<T> = T extends
+  string | number | boolean | bigint | symbol | null | undefined
+  ? T
+  : T extends object
+    ? { readonly [K in keyof T]: ReadonlyData<T[K]> }
+    : T;
 
 export interface Tool<C, I = unknown, O = unknown> {
   readonly description: string;

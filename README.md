@@ -9,7 +9,7 @@ Feature parity is not a goal.
 ## Install
 
 ```sh
-bun add https://github.com/golergka/coloph-toolset-ts/releases/download/v0.1.0/coloph-toolset-ts-0.1.0.tgz
+bun add https://github.com/golergka/coloph-toolset-ts/releases/download/v0.1.1/coloph-toolset-ts-0.1.1.tgz
 ```
 
 The GitHub release contains a standard npm package. It works with Bun and Node 22 or later. This package is not published to npm.

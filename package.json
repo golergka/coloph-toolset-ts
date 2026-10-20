@@ -1,6 +1,6 @@
 {
   "name": "coloph-toolset-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Synchronous typed tools with explicit context and Zod contracts.",
   "type": "module",
   "license": "MIT",
