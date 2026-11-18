@@ -6,6 +6,8 @@ This project and [Python coloph-toolset](https://github.com/golergka/coloph-tool
 They share the general idea of typed tools with injected context. Their APIs, features, versions, and releases are independent.
 Feature parity is not a goal.
 
+See [Coloph Works](https://github.com/golergka/coloph-works) for the full package collection.
+
 ## Install
 
 ```sh
